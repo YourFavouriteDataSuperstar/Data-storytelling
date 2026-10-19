@@ -1,3 +1,37 @@
+# Cuadernos del curso
+
+**Universidad Ean · AFPN0098 · Data Storytelling potenciado por el análisis de Machine Learning**
+
+| Cuaderno | Para qué | Abrir |
+|---|---|---|
+| **Python desde cero para contar historias con datos** | Taller introductorio para no programadores: qué es Python, los tipos de datos, qué es una librería y un abrebocas de NumPy, pandas, matplotlib, seaborn y scikit-learn, con prompts para practicar ML desde Colab. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Python_desde_cero.ipynb) |
+| **Mapa de visualizaciones con Matplotlib** | Catálogo de 15 gráficas listas para reciclar, con exportación a SVG editable. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Mapa_de_Visualizaciones_Matplotlib.ipynb) |
+
+> [!IMPORTANT]
+> **Abre los cuadernos con el botón de Colab, no desde GitHub.** GitHub elimina los estilos de los notebooks por seguridad; en Colab se ven como están diseñados y se pueden ejecutar.
+
+---
+
+## Python desde cero para contar historias con datos
+
+Un taller de una sesión para quien nunca ha programado. No se sale programando: se sale **entendiendo** lo que una IA genera cuando se le pide un análisis o un modelo, y sabiendo qué pedirle.
+
+| Sección | Contenido |
+|---|---|
+| 1–3 · Python | Qué es, `print`, variables, tipos de datos (texto, entero, decimal, lógico), listas, diccionarios, `if`, `for`, funciones y cómo leer un error |
+| 4 · Librerías | Qué es una librería, `import ... as`, las cinco del curso y para qué sirve cada una |
+| 5 · NumPy | Arreglos, operaciones en bloque, simulación con semilla |
+| 6 · pandas | DataFrame, `read_csv` desde GitHub, `info`, `describe`, filtrar, columnas calculadas, `groupby` |
+| 7 · matplotlib | Anatomía de una gráfica (figura, ejes, marcas, textos), barras con etiquetas, línea con referencia y anotación |
+| 8 · seaborn | `barplot`, `boxplot`, `scatterplot` con `hue`, mapa de calor de correlaciones |
+| 9 · scikit-learn | La receta elegir → entrenar → predecir; regresión lineal con train/test y R²; K-Means con escalado |
+| 10 · Promptear ML | Las cinco partes de un prompt de análisis, una función que describe tus datos para pegar en el prompt y tres prompts para probar |
+| 11 · Para llevar | Mapa de las cinco librerías y glosario de supervivencia |
+
+Usa `datos_ejemplo_marketing.csv` (lo lee directo desde este repositorio).
+
+---
+
 # Mapa de visualizaciones con Matplotlib
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Mapa_de_Visualizaciones_Matplotlib.ipynb)
@@ -51,7 +85,8 @@ Para conservar tus cambios: **Archivo › Guardar una copia en Drive**.
 
 | Archivo | Para qué sirve |
 |---|---|
-| `Mapa_de_Visualizaciones_Matplotlib.ipynb` | El notebook. Es lo único que necesitas. |
+| `Python_desde_cero.ipynb` | El taller introductorio de Python y las cinco librerías. |
+| `Mapa_de_Visualizaciones_Matplotlib.ipynb` | El catálogo de 15 gráficas. |
 | `datos_ejemplo_marketing.csv` | 240 filas de datos de marketing ficticios, para practicar la carga de archivos. |
 
 ---
