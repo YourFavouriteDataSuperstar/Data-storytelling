@@ -4,11 +4,30 @@
 
 | Cuaderno | Para qué | Abrir |
 |---|---|---|
+| **Segmentar para decidir: K-means contra clustering jerárquico** | Caso de negocio con 2.212 clientes reales de un retail (Kaggle, CC0): dos modelos no supervisados, sus métricas (silueta, Calinski-Harabasz, Davies-Bouldin, estabilidad), lectura de los segmentos como negocio, la elección del modelo y KNN para asignar clientes nuevos. Solo hay que ejecutar las celdas en orden. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Segmentacion_clientes_clustering.ipynb) |
 | **Python desde cero para contar historias con datos** | Taller introductorio para no programadores: qué es Python, los tipos de datos, qué es una librería y un abrebocas de NumPy, pandas, matplotlib, seaborn y scikit-learn, con prompts para practicar ML desde Colab. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Python_desde_cero.ipynb) |
 | **Mapa de visualizaciones con Matplotlib** | Catálogo de 15 gráficas listas para reciclar, con exportación a SVG editable. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Mapa_de_Visualizaciones_Matplotlib.ipynb) |
 
 > [!IMPORTANT]
 > **Abre los cuadernos con el botón de Colab, no desde GitHub.** GitHub elimina los estilos de los notebooks por seguridad; en Colab se ven como están diseñados y se pueden ejecutar.
+
+---
+
+## Segmentar para decidir: K-means contra clustering jerárquico
+
+Una cadena de retail le habla igual a todos sus clientes y solo uno de cada siete responde a sus campañas. El cuaderno descubre los tipos de cliente que tiene, compara dos modelos de agrupamiento y escoge uno con criterios de negocio. No hay que escribir código: se ejecuta celda por celda y cada paso viene explicado.
+
+| Sección | Contenido |
+|---|---|
+| 1–2 · El problema | Contexto de negocio, la pregunta bien planteada, aprendizaje no supervisado y la diferencia entre K-means y KNN |
+| 3–5 · Los datos | Carga, limpieza explicada, variables de negocio, exploración y por qué escalar |
+| 6 · K-means | Codo e inercia, silueta por k y por qué elegir 4 segmentos aunque la silueta prefiera 2 |
+| 7 · Jerárquico | Ward, dendrograma y dónde cortar el árbol |
+| 8 · Métricas | Silueta, Calinski-Harabasz, Davies-Bouldin, estabilidad con remuestreo, acuerdo entre modelos y mapa PCA |
+| 9 · Negocio | Perfil de cada segmento, concentración del gasto, respuesta a campañas (validación externa) y canales |
+| 10 · Decidir y usar | Matriz de decisión, KNN para clasificar clientes nuevos y plan de acción por segmento |
+
+Usa `clientes_marketing_campaign.csv`, copia exacta de [Customer Personality Analysis](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis) (A. Patel, Kaggle, licencia CC0).
 
 ---
 
