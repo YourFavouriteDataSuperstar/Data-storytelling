@@ -5,12 +5,28 @@
 | Cuaderno | Para qué | Abrir |
 |---|---|---|
 | **¿Se va o se queda? Clasificar clientes y ponerle precio al error** | Caso de churn con 7.043 clientes reales de una telco (IBM, base pública): qué es un modelo supervisado y por qué se separa en entrenar y probar, la regresión logística como tarjeta de puntos, la matriz de confusión con precio en cada casilla, la trampa de la exactitud, precisión y cobertura, el umbral como decisión de presupuesto, el árbol de decisión en tres preguntas y el juego del umbral de la clase. Solo hay que ejecutar las celdas en orden. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Churn_telco_clasificacion.ipynb) |
+| **¿Cuánto vale un cliente? Predecir una cifra y preguntar con un árbol** | Regresión sobre los mismos 2.212 clientes del retail: la recta que dibujaron a mano hecha por el computador, el error promedio en dólares frente a adivinar el promedio, cuatro pistas en vez de una, el árbol de regresión como escalones y para qué sirve el valor del cliente al dimensionar una oferta de retención. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Valor_cliente_regresion.ipynb) |
 | **Segmentar para decidir: K-means contra clustering jerárquico** | Caso de negocio con 2.212 clientes reales de un retail (Kaggle, CC0): cómo funcionan K-means y el jerárquico por dentro (con ejemplos paso a paso), un cuadro por cada métrica (inercia, silueta, Calinski-Harabasz, Davies-Bouldin, estabilidad y lift) y cómo comparar algoritmos, indicadores y personas por segmento, la economía de una campaña focalizada, la elección del modelo y KNN para asignar clientes nuevos. Solo hay que ejecutar las celdas en orden. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Segmentacion_clientes_clustering.ipynb) |
 | **Python desde cero para contar historias con datos** | Taller introductorio para no programadores: qué es Python, los tipos de datos, qué es una librería y un abrebocas de NumPy, pandas, matplotlib, seaborn y scikit-learn, con prompts para practicar ML desde Colab. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Python_desde_cero.ipynb) |
 | **Mapa de visualizaciones con Matplotlib** | Catálogo de 15 gráficas listas para reciclar, con exportación a SVG editable. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YourFavouriteDataSuperstar/Data-storytelling/blob/main/Mapa_de_Visualizaciones_Matplotlib.ipynb) |
 
 > [!IMPORTANT]
 > **Abre los cuadernos con el botón de Colab, no desde GitHub.** GitHub elimina los estilos de los notebooks por seguridad; en Colab se ven como están diseñados y se pueden ejecutar.
+
+---
+
+## ¿Cuánto vale un cliente? Predecir una cifra y preguntar con un árbol
+
+Cierra la semana de modelos supervisados: después de clasificar (¿se va o se queda?), predecir una cifra (¿cuánto va a gastar?). Con el archivo de clientes de la Semana 5.
+
+| Sección | Contenido |
+|---|---|
+| 1–2 · El problema | El precio de la fuga que no vi, qué es predecir una cifra y el mapa de las tres preguntas |
+| 3–4 · Los datos y la recta | La misma limpieza de la Semana 5, separación 80/20, la recta con una pista y el error promedio en dólares |
+| 5–6 · Más pistas y el árbol | Ingreso, hijos, antigüedad y edad; el árbol de regresión como escalones y la comparación de errores |
+| 7–8 · Usar | Dimensionar la oferta con el valor predicho; síntesis y la pregunta que abre SHAP |
+
+Usa `clientes_marketing_campaign.csv` (Customer Personality Analysis, A. Patel, Kaggle, CC0).
 
 ---
 
